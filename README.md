@@ -1,6 +1,8 @@
 # S. Gress (Game Off 2019)
+S. Gress: Gamifying the history of science!
 
-CONCEPT ONLY. My entry for the [Game Off jam](https://itch.io/jam/game-off-2019)
+This was supposed to be my entry for the [Game Off jam](https://itch.io/jam/game-off-2019).
+[**You can check my poor prototype**](https://dreamski21.github.io/game-off-2019).
 
 ## Interpretation
 
@@ -49,7 +51,7 @@ SCENE: A giraffe has a short neck. This giraffe follows the player as they progr
 
 ```
 
-SOLUTION: "On the Origin of Species" or "Darwinina Evolution" stops the giraffe's neck's length that was acquired during its lifetime, from being passed from parent to offspring.
+SOLUTION: "On the Origin of Species" or "Darwinian Evolution" stops the giraffe's neck's length that was acquired during its lifetime, from being passed from parent to offspring.
 At the end of the level, there won't be any boundary. Now you can make your 'bound' to the next stage. Happy, humanity is progressing scientifically!
 
 ```
@@ -100,6 +102,27 @@ SOLUTION: Mill's Principles of Political Economy as in
   .-------------------
 
 ```
+
+## Some interesting leap years
+See ["Timeline of scientific discoveries" on Wikipedia](https://en.wikipedia.org/wiki/Timeline_of_scientific_discoveries)
+
+> 1672 – Sir Isaac Newton: discovers that white light is a spectrum of a mixture of distinct coloured rays
+* Gamify it with plants under white light ("Grow light") as obstacles; and the white light is "split" into different colors, each color affects some specific plants affecting their growth and thus providing a way for Gress to progress maybe. 
+
+> 1848 – Lord Kelvin: absolute zero
+
+> 1892 – Dmitri Ivanovsky discovers for the first time a virus
+
+> 1896 – Svante Arrhenius derives the basic principles of the greenhouse effect.
+
+> 1912 – Alfred Wegener: Continental drift
+
+> 1996 – Roslin Institute: Dolly the sheep was cloned.
+
+## Inspiration
+Inspired by Danganronpa's truth bullets that breaks lies and allow the conversation/debate to progress...
+
+Also, now that I think about it, it feels like that Words Story's ad (not the actual mobile game though) I keep seeing on Instagram.
 
 ## Disclaimer
 I have no idea what I'm doing. I'm not really into history and not sure what events are really important and what actually caused some things to change (as in Example 2)
