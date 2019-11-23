@@ -1,0 +1,88 @@
+* {
+  text-align: center;
+  font-family: monospace;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  padding: 10px;
+}
+
+h1 {
+}
+
+a {
+  text-decoration: none;
+}
+
+main {
+  background: black;
+  padding: 10px;
+  min-height: 500px;
+  color: white;
+}
+
+#bar {
+  text-align: center;
+}
+
+#bar #year {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#scene {
+  background: black;
+  color: white;
+  border: 2px dashed white;
+  text-align: left;
+  padding: 10px;
+  min-height: 400px;
+  font-size: 17px;
+  white-space: pre-line;
+  line-height: 2;
+}
+
+#hint {
+  text-align: left;
+  background: white;
+  color: black;
+  border: 2px solid white;
+  padding: 5px;
+  width: 75%;
+  margin: auto;
+}
+
+#hint.covered {
+  text-align: center;
+  cursor: pointer;
+}
+
+#stage form {
+}
+
+form #wrapper {
+  font-size: 0px;
+}
+
+form input {
+  border: 0;
+  outline: none;
+  height: 22px;
+  vertical-align: baseline;
+}
+
+form input[type="text"] {
+  border-radius: 7px 0 0 7px;
+  width: 250px;
+}
+
+form input[type="submit"] {
+  border-radius: 0 7px 7px 0;
+  padding: 0 5px;
+  background: gray;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+}
