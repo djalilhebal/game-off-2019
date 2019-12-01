@@ -32,7 +32,7 @@ class Gress {
     if (this.stages.length === 0) {
       alert('You have finished the game and reached the present!');
     } else {
-      alert('Progressing!');
+      alert('Bounding to the next stage!');
       this.stage = this.stages.shift();
       this.resetStageUI();
     }
@@ -94,6 +94,22 @@ class Gress {
 }
 
 const stages = [
+  {
+    year: '0 B.C.',
+    scene: `Out of nowhere, poof, suddenly come into exitence!
+    You look around you, leap from one place to another, collecting clues and hints about your surroundings.
+    You realize there's a problem that's stopping you from rising your "level of consciousness"...
+    What is needed to improve for you and Humanity to progress and bound to the next level?
+    
+    You can either enter "Science" or "https://en.wikipedia.org/wiki/Science"`,
+    hints: [
+      'SciENce iS impORtAnT...'
+    ],
+    articles: [
+      'Science',
+    ]
+  },
+
   {
     year: '1859*', // not a leap year
     scene: `You see a giraffe with a short neck.

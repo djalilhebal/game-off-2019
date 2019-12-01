@@ -2,7 +2,7 @@
 S. Gress: Gamifying the history of science!
 
 This was supposed to be my entry for the [Game Off jam](https://itch.io/jam/game-off-2019).
-[**You can check my poor prototype**](https://dreamski21.github.io/game-off-2019).
+[**You can check my poor prototype here**](https://dreamski21.github.io/game-off-2019).
 
 ## Interpretation
 
@@ -29,12 +29,24 @@ The player breaks these boundaries by guessing and googling the problem (with th
 
 ---
 
+* S. Gress = **S**cientific/**S**ocioeconomic Pro**gress**
+
 * Maybe about 20 levels exist, highlighting 20 important leap years/events in the recent human history.
 
 * The goal is reaching present day's "level of consciousness" (this has a _New Age_ vibe to it lol).
 
-* S. Gress = **S**cientific/**S**ocioeconomic Pro**gress**
+* The player is expected and encouraged to search on the internet and solve puzzles by linking to relevant Wikipedia articles.
 
+### Input
+The player can either enter a relevant article's title or paste a link to it.
+
+- Idea: When the player submits an answer, the game should query Wikipedia to get its metadata including its Wikidata id, which will be hashed and compared to a stored set of acceptable hashes.  
+Why? So that the player won't simply check the code to see the correct answer (it's a nerd's kind of game, after all).  
+Also, and most importantly, so that the game becomes a little bit future-proof (in case articles are rename or merged) and to support multiple languages (like, although I use English, I sometimes get and check search results in French).
+
+- Idea: Autocomplete user's input using Wikipedia's titles and descriptions. Computationally expensive and too complicated...
+
+## Stages
 ### Example 1
 SETTING: 'Gress' jumps into the 1859\* stage. _(\* it's not a leap year but just go with it)_
 
@@ -105,19 +117,25 @@ SOLUTION: Mill's Principles of Political Economy as in
 
 ```
 
-## Some interesting leap years
-See ["Timeline of scientific discoveries" on Wikipedia](https://en.wikipedia.org/wiki/Timeline_of_scientific_discoveries)
+### Some interesting leap years
+See ["Timeline of scientific discoveries" on Wikipedia](https://en.wikipedia.org/wiki/Timeline_of_scientific_discoveries).
 
 > 1672 – Sir Isaac Newton: discovers that white light is a spectrum of a mixture of distinct colored rays
-* Gamify it with plants under white light ("Grow light") as obstacles; and the white light is "split" into different colors, each color affects some specific plants affecting their growth and thus providing a way for Gress to progress maybe. 
+* Plays in dungeon. Passes open doors with symbols/pics with matched colors. The last door contains a colored symbol and a white symbol under some white light.
+The play think "How can I color the white one? How to split the white light to different colors?" That's the solution.q
 
-> 1848 – Lord Kelvin: absolute zero
+* NOT CLEAR: Gamify it with plants under white light ("Grow light") as obstacles; and the white light is "split" into different colors, each color affects some specific plants affecting their growth and thus providing a way for Gress to progress maybe. 
 
-> 1892 – Dmitri Ivanovsky discovers for the first time a virus
+> 1848 – Lord Kelvin: absolute zero.
+* Playing in the microscopic. "Bars'" movement depends on the temperature (in C°). The boundary must be 100% stable for S. to progress.
+
+> 1892 – Dmitri Ivanovsky discovers for the first time a virus.
 
 > 1896 – Svante Arrhenius derives the basic principles of the greenhouse effect.
+* Jumping over pieces of melting(?) ice. Iceberg blocking the way.
 
-> 1912 – Alfred Wegener: Continental drift
+> 1912 – Alfred Wegener: Continental drift.
+* See prototype's second stage
 
 > 1996 – Roslin Institute: Dolly the sheep was cloned.
 
@@ -128,3 +146,6 @@ Also, now that I think about it, it feels like that Words Story's ad (not the ac
 
 ## Disclaimer
 I have no idea what I'm doing. I'm not really into history, and not sure what events are really important and what actually caused some things to change (as in Example 2)
+
+## License
+dreamski21 - CC-BY
