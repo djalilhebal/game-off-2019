@@ -2,7 +2,7 @@
 S. Gress: Gamifying the history of science!
 
 This was supposed to be my entry for the [Game Off jam](https://itch.io/jam/game-off-2019).
-[**You can check my poor prototype here**](https://dreamski21.github.io/game-off-2019).
+[**You can check my poor prototype here**](https://djalilhebal.github.io/game-off-2019).
 
 ## Interpretation
 
@@ -148,4 +148,4 @@ Also, now that I think about it, it feels like that Words Story's ad (not the ac
 I have no idea what I'm doing. I'm not really into history, and not sure what events are really important and what actually caused some things to change (as in Example 2)
 
 ## License
-dreamski21 - CC-BY
+djalilhebal - CC-BY
